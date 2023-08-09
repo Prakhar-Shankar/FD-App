@@ -7,7 +7,7 @@ export default function Carousel() {
         id="carouselExampleFade"
         className="carousel slide carousel-fade"
         data-bs-ride="carousel"
-        style={{objectFit:"contain !important"}}
+        style={{objectFit:'cover !important'}}
       >
         <div className="carousel-inner" id="carousel" >
         <div className="craousel-caption mt-10" style={{zIndex: "10"}}>
@@ -26,25 +26,25 @@ export default function Carousel() {
           <div className="carousel-item active">
             
             <img
-              src="https://source.unsplash.com/random/300×300?burgers"
+              src="https://source.unsplash.com/random/900×700?burgers"
               className="d-block w-100"
-              style={{filter: "brightness(50%)"}}
+              style={{filter: "brightness(50%)", transform: 'translateY(-40%)'}}
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://source.unsplash.com/random/300×300?pastry"
+              src="https://source.unsplash.com/random/900×700?pastry"
               className="d-block w-100"
-              style={{filter: "brightness(50%)"}}
+              style={{filter: "brightness(50%)", transform: 'translateY(-40%)'}}
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://source.unsplash.com/random/300×300?barbeque"
+              src="https://source.unsplash.com/random/900×700?barbeque"
               className="d-block w-100"
-              style={{filter: "brightness(50%)"}}
+              style={{filter: "brightness(50%)", transform: 'translateY(-40%)'}}
               alt="..."
             />
           </div>
